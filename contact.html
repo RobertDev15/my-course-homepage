@@ -17,8 +17,8 @@
         </nav>
     </header>
     <main id="main-content">
-        <h1>Contacts</h1>
         <section>
+            <h1>Contacts</h1>
         <form method="post" action="#" aria-label="Contact form">
       <fieldset>
         <legend>Your details</legend>
@@ -26,6 +26,8 @@
         <input type="text" id="name" name="name" required>
         <label for="email">Email (required)</label>
         <input type="email" id="email" name="email" required>
+        <label for="phone">Phone (optional)</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9\s\-+]+" title="Digits, spaces, hyphens, or plus only">
       </fieldset>
       <fieldset>
         <legend>Your message</legend>
