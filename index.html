@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .js{
+            background-color: lightgreen;
+            color: darkgreen;
+            font-weight: bold;
+        }
+        .java{
+            background-color: lightcoral;
+            color: darkred;
+            font-weight: bold;
+        }
+    </style>
     <title>New Document</title>
 </head>
 <body>
@@ -13,6 +26,7 @@
                 <li><a href="#">Resorces</a></li>
                 <li><a href="#">Course Page</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="card.html">Business</a></li>
             </ul>
         </nav>
     </header>
@@ -23,28 +37,29 @@
             <section>My name is Vadean Robert Sebastian and I am a 1st year student in Computer Science in English.
             <h2>Course goals</h2> I want to build a small portofolio site and understand how Javascript scripting works</section>
             
-            <table border="5">
+            <table border="5" class="personal_table">
+            <caption>Personal Skills</caption>
     <thead>
         <tr>
-            <th scope="col" colspan="4">Personal Skills</th>
+            <th scope="col" colspan="4" style="text-align: left;" class="column">Personal Skills</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th scope="row" rowspan="3">Programming</th>
-            <td>Begginer</td>
-            <td>JavaScript</td>
+            <th scope="row" rowspan="3" class="column" >Programming</th>
+            <td>Python</td>
+            <td class="js">JavaScript</td>
         </tr>
         <tr>
             <td>C/C++</td>
-            <td>Intermidiate</td>
+            <td class="java">Java</td>
         </tr>
         <tr>
             <td>Java</td>
             <td>-</td>
         </tr>
         <tr>
-            <th scope="row" rowspan="4">Design</th>
+            <th scope="row" rowspan="4" class="column">Design</th>
             <td colspan="2">Figma</td>
         </tr>
         <tr>
@@ -57,7 +72,7 @@
             <td colspan="2">UI/UX</td>
         </tr>
         <tr>
-            <th scope="row">Other</th>
+            <th scope="row" class="column">Other</th>
             <td colspan="2">Git</td>
         </tr>
     </tbody>

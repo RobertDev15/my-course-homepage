@@ -1,0 +1,24 @@
+.container{
+    background-color: pink;
+}
+.container h1{
+    color: blueviolet;
+}
+.container h3{
+    color: blue;
+}
+.container a{
+    color: fuchsia;
+    display: flex;
+}
+#photo{
+    border-radius: 50%;
+}
+#github{
+    color: blue;
+}
+body{
+    background-color: teal;
+    margin: 0;
+    padding: auto;
+}
