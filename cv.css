@@ -1,0 +1,61 @@
+#main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    background-color: gray;
+}
+
+.header-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: darkblue;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.profile-content h2{
+    color: bisque;
+}
+.profile-content p{
+    color: antiquewhite;
+}
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: orange;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: pink;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: purple;
+    padding-bottom: 35px;
+}
+.contact-content a{
+    text-decoration: none;
+}
+.contact-content p{
+    color: gold;
+}
