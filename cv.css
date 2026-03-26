@@ -22,6 +22,7 @@ body{
     align-items: flex-start;
     gap: 20px;
     padding: 15px;
+    background-color: orange;
 }
 .project-section{
     display: flex;
@@ -29,13 +30,16 @@ body{
     align-items: flex-start;
     gap: 20px;
     padding: 15px;
+    background-color: yellowgreen;
 }
 .contact-section{
+    grid-column: 1 / 3;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
     padding: 15px;
+    background-color: palevioletred;
 }
 .skills-container,.project-container,.contact-container{
     display: grid;
@@ -43,19 +47,21 @@ body{
     gap: 20px;
 }
 .card{
-    background-color: wheat;
+    background-color: antiquewhite;
     padding: 15px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 .card-highlight{
-    background-color: beige;
+    background-color: palegoldenrod;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
 }
 .profile-content,.skills-content,.project-content,.contact-content{
