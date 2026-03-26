@@ -1,61 +1,68 @@
+body{
+    background-color: mediumaquamarine;
+}
 #main-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    background-color: gray;
-}
-
-.header-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: darkblue;
-}
-
-.profile-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-}
-.profile-content h2{
-    color: bisque;
-}
-.profile-content p{
-    color: antiquewhite;
-}
-.skills-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    background-color: orange;
-}
-
-.project-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
     background-color: pink;
 }
-.contact-content{
+.profile-section{
+    grid-column: 1 / 3;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    background-color: purple;
-    padding-bottom: 35px;
+    gap: 15px;
 }
-.contact-content a{
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+}
+.skills-container,.project-container,.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.card{
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-highlight{
+    background-color: beige;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-content,.skills-content,.project-content,.contact-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-section a{
     text-decoration: none;
-}
-.contact-content p{
-    color: gold;
 }
