@@ -1,0 +1,37 @@
+/* CSS styles */
+body {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 25px;
+    flex-direction: column;
+}
+
+.chat-container {
+    max-width: 50vw;
+    width: 50%;
+    height: 50vh;
+    padding: 16px;
+    background-color: #f4f4f4;
+    border-radius:  15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 20px;
+    background-color: crimson;
+    border-radius: 25px;
+    color: #f4f4f4;
+}
+.user{
+    background-color: lightpink;
+    border-radius: 25px;
+    color: #f4f4f4;
+}
+#chat-form {
+    display: flex;
+}
