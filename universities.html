@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Filter</title>
+    <link rel="stylesheet" href="universities.css">
+</head>
+<body>
+    <div>
+  <h1>Universities in Romania</h1>
+  <label for="q">Filter (optional):</label>
+  <input id="q" placeholder="search by name…" />
+
+  <div id="status" class="status"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Website</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+<button id="exportCsv">Export CSV</button>
+<script src="universities.js"></script>
+</body>
+</html>
